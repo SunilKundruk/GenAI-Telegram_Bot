@@ -1,0 +1,25 @@
+# --- Secrets ---
+.env
+
+# --- Local Databases ---
+vector_store.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+
+# --- Environment ---
+.env.example
+.gemini/
+.agents/
+.agent/
+_agents/
+_agent/
+brain/
+logs/
+inspect_db.py
+verify_api.py
+test_gemini.py
+list_models.py
